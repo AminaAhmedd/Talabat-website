@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sec1{
+    height: 600px;
+    width: 100%;
+    background: url('blue_bg.png' ) no-repeat;
+    background-size: 100% 100%;
+/* border: 1px solid greenyellow; */
+}
+.sec1 nav{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    padding: 50px 70px 10px 50px;
+    /* border: 1px solid red; */
+} 
+.leftnav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+color: #747371;
+margin:  20px 20px ;
+
+}
+.link{
+padding: 20px;
+
+}
+.leftnav img{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+
+}
+.rightnav{
+   display: flex;
+   align-items: flex-end;
+} 
+.sec1 .rightnav input{
+   width: 90px;
+    border-radius: 30px;
+    padding: 10px;
+   border: white;
+ background-color:white; 
+}
+.sec1 .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10px 10px 50px;
+    width: 100%;
+    height: 480px;
+     /* border: 1px solid red; */
+
+}
+.leftmain{ 
+padding: 45px;
+margin-top: 50px;
+}
+.leftmain h1{
+    font-size: 53px;
+color: #494949;
+}
+
+.leftmain p{
+    font-size: 28px;
+    color: #a7a1a1ee;
+}
+.rightmain{
+    height: 100%;
+    width: 600px;
+   position: relative;
+}
+.landing{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.MaskGroup{
+    position: absolute;
+width: 200px;
+height: 330px;
+z-index: -1;
+/* top: 100px; */
+left: 150px;
+right: 100px;
+bottom: 100px;
+}
+.clouds{
+    position: absolute;
+    width: 270px;
+    height: 160px;
+    z-index: 0;
+    bottom: 10px;
+    left: 120px;
+}
+  .waves{
+    position: absolute;
+    width: 85%;
+    height: 200px;
+    z-index: 1;
+    top: 75%;
+    right:90%;
+left: 0px;
+bottom: 0px;
+}  
+.sec2{
+    height: 800px;
+    width: 100%;
+margin-top: 50px;
+}
+.sec2 .div1{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.div1 .background{
+    position: absolute;
+    z-index: -4;
+    width: 73%;
+    height: 100%;
+    left: 15%;
+    /* border: 1px solid red; */
+}
+.div1 .first{
+    position: absolute;
+    z-index: -3;
+    width: 360px;
+    height: 180px;
+    top: 80px;
+    left: 120px;
+    right: 100px;
+    /* border: 1px solid red; */
+}
+ .sec2 .div1 .firstp{
+    color: #747371;
+    position: absolute;
+    bottom: 190px;
+    left: 80px;
+}
+.sec2 .div1 .secondp{
+    color: #747371;
+    position: absolute;
+    bottom: 160px;
+    left: 60px;
+}
+.div1 .secoend{
+    position: absolute;
+    z-index: -2;
+    width: 450px;
+    height: 240px;
+    top: 230px;
+    left: 43%;
+    /* border: 1px solid red; */
+}
+
+.sec2 .div1 .onep{
+    color: #747371;
+    position: absolute;
+    bottom: 60px;
+    left: 35%;
+}
+.sec2 .div1 .twop{
+    color: #747371;
+    position: absolute;
+    bottom: 30px;
+    left: 39%;
+}
+.div1 .third {
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 170px;
+    top: 480px;
+    left: 70%;
+}
+.third img{
+    position: absolute;
+    z-index: 0;
+
+}
+.third h2{
+    position: absolute;
+    z-index: 1;
+   bottom: 90px;
+   left: 40px;
+}
+
+.sec2 .div1 .p1 {
+    color: #747371;
+    position: absolute;
+    z-index: 1;
+    bottom: -210px;
+   right: 80px;
+}
+.sec2 .div1 .p2 {
+    color: #747371;
+    position: absolute;
+    z-index: 1;
+    bottom: -240px;
+    right: 100px;
+}
+ .third p{
+    display: flex;
+    
+} 
+.div1 .fourth {
+    position: absolute;
+    z-index: 0;
+    width: 330px;
+    height: 220px;
+    top: 480px;
+    left: 8%;
+}
+.div1 .fourth {
+    position: relative;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+}
+.fourth img{
+    position: absolute;
+    z-index: 0;
+    bottom:130px;
+}
+.fourth .upp{
+    position: relative;
+    z-index: 0;
+    bottom: -120px;
+    left: 20%;
+
+}
+.fourth .downp {
+    position: relative;
+    z-index: 0;
+    bottom: -120px;
+    left: 21%;
+    color: white;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.sec3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+
+
+    
+}
+.sec3 .div1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
+.sec3 .div1 img{
+    position: absolute;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 90px;
+}
+/* .sec3 .div3 img{
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    right: 80px;
+} */
+.sec3 .div3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.sec3 .div3 img{
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    right: 90px;
+}
+.sec3 .div2{
+    display: block;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin-left: 170px;
+}
+.divpara{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+ .sec3 .div2 .divpara div{
+   margin: 0px 70px 90px;
+} 
+ .sec4{
+     position: relative;
+    height: 600px;
+    z-index: 0;
+    width: 100%;
+    background: url('Group 1131.png' ) no-repeat ;
+    background-position: top;
+    background-size: 120% 140%; 
+   display: flex;
+} 
+.sec4 .rightsec img{
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    right: 10%;
+    bottom: 0px;
+}
+.sec4 .leftsec {
+    position: absolute;
+    z-index: 1;
+    /* width: 500px;
+    height: 500px; */
+    bottom: 20px;
+    left: 5%;
+}
+.sec4 .main{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sec4 .leftsec .one {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 140x;
+    height: 52px;
+    border: 0px solid;
+}
+.sec4 .leftsec .two {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    height: 52px;
+    margin-left: 20px;
+    border: 0px solid;
+}
+.icon{
+    margin-bottom: 50px;
+    display: flex;
+
+}
+.footer a{
+text-decoration: none;
+margin: 30px 30px 50px 0px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
